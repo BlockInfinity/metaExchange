@@ -1,4 +1,4 @@
-// flow-typed signature: 136ee065b99bf21930ff92960d74f517
+// flow-typed signature: b8c706c39c682044f98425df12495f57
 // flow-typed version: <<STUB>>/webpack_v^3.0.0/flow_v0.48.0
 
 /**
@@ -262,10 +262,6 @@ declare module 'webpack/lib/dependencies/CriticalDependencyWarning' {
   declare module.exports: any;
 }
 
-declare module 'webpack/lib/dependencies/DelegatedExportsDependency' {
-  declare module.exports: any;
-}
-
 declare module 'webpack/lib/dependencies/DelegatedSourceDependency' {
   declare module.exports: any;
 }
@@ -371,14 +367,6 @@ declare module 'webpack/lib/dependencies/ImportParserPlugin' {
 }
 
 declare module 'webpack/lib/dependencies/ImportPlugin' {
-  declare module.exports: any;
-}
-
-declare module 'webpack/lib/dependencies/ImportWeakContextDependency' {
-  declare module.exports: any;
-}
-
-declare module 'webpack/lib/dependencies/ImportWeakDependency' {
   declare module.exports: any;
 }
 
@@ -954,10 +942,6 @@ declare module 'webpack/lib/PrefetchPlugin' {
   declare module.exports: any;
 }
 
-declare module 'webpack/lib/prepareOptions' {
-  declare module.exports: any;
-}
-
 declare module 'webpack/lib/ProgressPlugin' {
   declare module.exports: any;
 }
@@ -1035,14 +1019,6 @@ declare module 'webpack/lib/UseStrictPlugin' {
 }
 
 declare module 'webpack/lib/util/identifier' {
-  declare module.exports: any;
-}
-
-declare module 'webpack/lib/util/Semaphore' {
-  declare module.exports: any;
-}
-
-declare module 'webpack/lib/util/SortableSet' {
   declare module.exports: any;
 }
 
@@ -1295,9 +1271,6 @@ declare module 'webpack/lib/dependencies/ContextElementDependency.js' {
 declare module 'webpack/lib/dependencies/CriticalDependencyWarning.js' {
   declare module.exports: $Exports<'webpack/lib/dependencies/CriticalDependencyWarning'>;
 }
-declare module 'webpack/lib/dependencies/DelegatedExportsDependency.js' {
-  declare module.exports: $Exports<'webpack/lib/dependencies/DelegatedExportsDependency'>;
-}
 declare module 'webpack/lib/dependencies/DelegatedSourceDependency.js' {
   declare module.exports: $Exports<'webpack/lib/dependencies/DelegatedSourceDependency'>;
 }
@@ -1378,12 +1351,6 @@ declare module 'webpack/lib/dependencies/ImportParserPlugin.js' {
 }
 declare module 'webpack/lib/dependencies/ImportPlugin.js' {
   declare module.exports: $Exports<'webpack/lib/dependencies/ImportPlugin'>;
-}
-declare module 'webpack/lib/dependencies/ImportWeakContextDependency.js' {
-  declare module.exports: $Exports<'webpack/lib/dependencies/ImportWeakContextDependency'>;
-}
-declare module 'webpack/lib/dependencies/ImportWeakDependency.js' {
-  declare module.exports: $Exports<'webpack/lib/dependencies/ImportWeakDependency'>;
 }
 declare module 'webpack/lib/dependencies/LoaderDependency.js' {
   declare module.exports: $Exports<'webpack/lib/dependencies/LoaderDependency'>;
@@ -1814,9 +1781,6 @@ declare module 'webpack/lib/performance/SizeLimitsPlugin.js' {
 declare module 'webpack/lib/PrefetchPlugin.js' {
   declare module.exports: $Exports<'webpack/lib/PrefetchPlugin'>;
 }
-declare module 'webpack/lib/prepareOptions.js' {
-  declare module.exports: $Exports<'webpack/lib/prepareOptions'>;
-}
 declare module 'webpack/lib/ProgressPlugin.js' {
   declare module.exports: $Exports<'webpack/lib/ProgressPlugin'>;
 }
@@ -1876,12 +1840,6 @@ declare module 'webpack/lib/UseStrictPlugin.js' {
 }
 declare module 'webpack/lib/util/identifier.js' {
   declare module.exports: $Exports<'webpack/lib/util/identifier'>;
-}
-declare module 'webpack/lib/util/Semaphore.js' {
-  declare module.exports: $Exports<'webpack/lib/util/Semaphore'>;
-}
-declare module 'webpack/lib/util/SortableSet.js' {
-  declare module.exports: $Exports<'webpack/lib/util/SortableSet'>;
 }
 declare module 'webpack/lib/validateSchema.js' {
   declare module.exports: $Exports<'webpack/lib/validateSchema'>;

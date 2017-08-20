@@ -4,6 +4,10 @@ import { AppContainer } from 'react-hot-loader';
 import Root from './containers/Root';
 import { configureStore, history } from './store/configureStore';
 import './app.global.css';
+import Meteor, { createContainer } from 'electron-meteor';
+import 'jquery/dist/jquery.min.js';
+
+//Meteor.connect('ws://127.0.0.1:3000/websocket');
 
 const store = configureStore();
 
